@@ -1,6 +1,10 @@
-use std::path::PathBuf;
+/*!
+command line parse module
+*/
+#![allow(unused)]
 
 use clap::{Parser, Subcommand};
+use std::path::PathBuf;
 
 #[derive(Parser)]
 #[command(version)]
