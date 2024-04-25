@@ -9,3 +9,4 @@ edition = "2021"
 serde = { version = "1.0", features = ["derive"] }
 clap = { version = "4.5.4", features = ["derive"] }
 toml = "0.8.12"
+tokio = { version = "1", features = ["full"] }
